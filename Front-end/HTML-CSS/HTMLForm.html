@@ -1,0 +1,87 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta CHARSET="UTF-8" Owner="abc">
+</head>
+
+<title> HTML Forms </title>
+
+<body>
+
+<form action="Test.htm" target="_blank" method="GET" >
+<fieldset>
+    <legend>Signup:</legend>
+    First name:<br>
+    <input type="text" name="firstname" value="First name">
+    <br>
+    
+Last name:<br>
+    <input type="text" name="lastname" value="Last name">
+    <br><br>
+	
+	<input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br>
+    <br><br>
+	
+	<input type="email" name="emailId" value="Email">
+    <br><br>
+	
+	<input type="password" name="password" placeholder="Enter Password">
+    <br><br>
+	
+	<input type="search" name="search" placeholder="Enter Search String">
+    <br><br>
+	
+	<input type="url" name="url" placeholder="Enter URL">
+    <br><br>
+	
+	<input type="text" name="browsers" list="browsers" placeholder="Browsers"> 
+	<datalist id="browsers">    
+		<option value="Internet Explorer">  
+		<option value="Firefox">
+		<option value="Chrome">  
+	</datalist>
+	<br><br>
+	
+	
+	Select Cars: <br>
+	<select name="cars" multiple> 
+	<optgroup label="1st Category"> 
+	<option value="volvo">Volvo</option>  
+	<option value="saab" selected>Saab</option>
+	</optgroup>
+	<optgroup label="2nd Category">  
+	<option value="fiat">Fiat</option>  
+	<option value="audi">Audi</option>
+	</optgroup>
+	</select>
+	<br><br>
+	
+	
+	Where would you like to go? <br>
+	<input type="checkbox" name="Country" value="Germany" checked> Germany<br>
+    <input type="checkbox" name="Country" value="France"> France<br>
+	<input type="checkbox" name="Country" value="Italy">Italy<br>
+	<input type="checkbox" name="Country" value="Spain"> Spain<br>
+    <br><br>
+	
+	
+	
+	<textarea name="message" rows="3" cols="30">
+	The cat was playing in the garden.
+	</textarea>
+	<br>
+	
+	<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+	<br>
+  
+    <input type="submit" value="Submit">
+  </fieldset>
+
+
+</form>
+
+
+</body>
+</html>

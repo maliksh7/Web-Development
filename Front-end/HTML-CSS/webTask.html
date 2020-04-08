@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Task</title>
+	<meta charset="UTF-8" ownner="abc">
+
+	<link rel="stylesheet" type="text/css" href= "web.css">
+	<script type="text/javascript">
+
+		function table(num){
+			console.log("Got val"+num);
+			var payload = "<table> <thead> <tr> <th>a</th> <th>b</th> <th>c</th> </tr> </thead> <tbody>"
+			for(var i=1; i<=10; i++){
+
+				payload += "<tr> <td>";
+				payload += ""+num+" * "+i+" = "+"</td>";
+				payload += "<td> " + num*i + "</td>  </tr>"
+			}
+			payload += "</tbody></table>";
+			document.getElementsByClassName("tableHere")[0].innerHTML = payload;
+		}
+	</script>
+	<style type="text/css">
+		
+		.hero-image {
+			width: 100%;
+  			height: 400px;
+  			background: url('http://www.kodhus.com/freecourse-images/header-image.jpg');
+  			background-size: cover;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="hero-image">
+  	<div class="hero-text">
+    	<h1>I am Saad Malik</h1>
+    </div>
+	</div>
+	<div id="div-font">
+		<a href="WebTask.html">Home</a>
+		<a href="WebTask1.html" target="blank">Contact us</a>
+	</div>
+	<hr>
+	<br><br><br>
+
+		<h2>Tables</h2><br>
+		<p>This Web Page contains buttons of table from 2 to 9.</p><br>
+		<button id = "table" onclick="table(2);" > 2</button>
+		<br><br>
+		<button onclick="table(3);" > 3</button>
+		<br><br>
+		<button onclick="table(4);" > 4</button>
+		<br><br>
+		<button onclick="table(5);" > 5</button>
+		<br><br>
+		<button onclick="table(6);" > 6</button>
+		<br><br>
+		<button onclick="table(7);" > 7</button>
+		<br><br>
+		<button onclick="table(8); " > 8</button>
+		<br><br>
+		<button onclick="table(9); " > 9</button>
+
+			
+		</div>
+		<div class="tableHere">
+			
+		</div>
+</body>
+</html>
