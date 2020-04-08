@@ -1,0 +1,60 @@
+/*h1 { 
+	color: red;
+}
+li {
+	color: green;
+}
+h4 {
+	color: purple;
+}*/     
+
+/*h1 {
+	color: #FF00FF;
+}
+li {
+	color: #DD11DD;
+}
+h4 {
+	color: #AAAAAA;
+}  */   
+
+
+/*h1 {
+	color:  rgb(200,200,200);
+}
+li {
+	color: rgb(255,0,255);
+}
+h4 {
+	color: rgb(0,1,255);
+}     */
+
+/*Border in CSS:
+	*width
+	*color
+	*style
+*/
+
+h1 {
+	color: rgba(0,0,220,.4);
+/*	border-color: green;
+	border-width:  5px;
+	border-style: solid;*/
+
+	/*SC*/
+	border: 2px solid green;
+}
+h4 {
+	/*background: rgba(60,140,220,.4);*/
+	color: rgba(60,40,20,.8);
+} 
+li {
+	background: rgba(200,230,240,.8);
+	color: rgba(160,40,20,.6);
+}
+body{
+	/*background: url(http://cdn.yourzoom.com/2m/1581391/1581391.yz/main.jpg);
+	background-repeat: no-repeat;   
+	background-size: cover;*/
+	background: pink;
+  }

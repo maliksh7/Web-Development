@@ -1,0 +1,31 @@
+                           /*SELECTORS */
+
+
+
+
+/*elemrnt selector*/
+li {
+	border: 2px solid green;
+}
+
+
+/*id selector*/
+#spy{
+	background: yellow;   
+}
+
+/*class selector*/
+.sim{
+	text-decoration: line-through;
+}
+
+
+					/*Advanced Selectors*/
+
+/*Star Selector*/
+
+ * {
+ 	/*Will select whatever on page...select all*/
+ }  
+
+ /*D*/
