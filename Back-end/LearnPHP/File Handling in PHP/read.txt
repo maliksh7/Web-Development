@@ -1,0 +1,6 @@
+<h1> Hi </h1>
+
+<h4> File Handling in PHP </h4>
+
+<p> This is a text file, also a readme file used for file handling in php. </p>
+
