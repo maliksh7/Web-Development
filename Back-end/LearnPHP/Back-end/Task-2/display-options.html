@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+</head>
+
+
+<body>
+    <div>
+        <fieldset>
+            <h1>Display</h1>
+            <form action="show-data.php" method="GET" enctype="multipart/form-data">
+                <p>
+                    <label for="db">Enter Database Name:</label>
+                    <input type="text" name="mydb" id="db">
+                </p>
+
+                <p>
+                    <label for="Table">Enter Table Name:</label>
+                    <input type="text" name="table" id="Table">
+                </p>
+                <h1> Option</h1>
+
+                <p>
+                    <label for="alldata">All data:</label>
+                    <input type="radio" name="alldata" id="alldataid">
+                </p>
+
+                <p>
+                    <label for="Column">Enter Column Name:</label>
+                    <input type="text" name="column" id="Column">
+                </p>
+
+                <p>
+                    <label for="row">ID:</label>
+                    <input type="text" name="rowid" id="row">
+                </p>
+
+                <input type="submit" value="Dsiplay" name="display">
+
+
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>

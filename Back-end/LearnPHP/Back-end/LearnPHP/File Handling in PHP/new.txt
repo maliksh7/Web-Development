@@ -1,0 +1,4 @@
+
+              <h1> Hi </h1>
+              <p> This is paragraph, writen in write mode of file handling in php </p>
+  

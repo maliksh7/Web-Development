@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form  { display: table;}
+        p     { display: table-row;  }
+        label { display: table-cell; }
+        input
+        {
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+    <h1>Create data base</h1>
+
+    <form action="phpp.php" method="POST" >
+        <p >
+            <label for="inpHost">Server Name </label><input type="text" id="inpHost" name="host">
+        </p><br>
+        <p >
+            <label for="inpUser">User Name </label><input type="text" id="inpUser" name="user">
+        </p><br>
+        <p >
+            <label for="inpPassword">Password </label><input type="text" id="inpPassword" name="password">
+        </p><br>
+        <p >
+            <label for="inpDatabaseName">DataBase Name </label><input type="text" id="inpDatabaseName" name="database">
+        </p><br>
+        <p >
+            <label for="inpPort">Port Number </label><input type="text" id="inpPort" name="port">
+        </p><br>
+        <p >
+            <label for="inptable">Table name </label><input type="text" id="inptable" name="table">
+        </p><br>
+        <input type="submit" value="Submit"><br>
+        <input type="reset" value="Reset">
+    </form>
+
+</body>
+</html>
